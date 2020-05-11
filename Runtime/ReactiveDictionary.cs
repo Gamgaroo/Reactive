@@ -6,6 +6,8 @@ namespace Gamgaroo.Reactive.Runtime
 {
     public sealed class ReactiveDictionary<TKey, TValue> : IReactiveDictionary<TKey, TValue>
     {
+        private readonly Dictionary<TKey, TValue> _dictionary;
+
         public ReactiveDictionary()
         {
             _dictionary = new Dictionary<TKey, TValue>();
@@ -15,8 +17,6 @@ namespace Gamgaroo.Reactive.Runtime
         {
             _dictionary = new Dictionary<TKey, TValue>(dictionary);
         }
-
-        private readonly Dictionary<TKey, TValue> _dictionary;
 
         public void Add(TKey key, TValue value)
         {

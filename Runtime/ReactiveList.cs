@@ -6,6 +6,8 @@ namespace Gamgaroo.Reactive.Runtime
 {
     public sealed class ReactiveList<T> : IReactiveList<T>
     {
+        private readonly List<T> _items;
+
         public ReactiveList()
         {
             _items = new List<T>();
@@ -15,8 +17,6 @@ namespace Gamgaroo.Reactive.Runtime
         {
             _items = new List<T>(items);
         }
-
-        private readonly List<T> _items;
 
         public void Add(T item)
         {

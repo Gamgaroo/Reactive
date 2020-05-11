@@ -5,6 +5,8 @@ namespace Gamgaroo.Reactive.Runtime
 {
     public sealed class ReactiveProperty<T> : IReactiveProperty<T>
     {
+        private T _value;
+
         public ReactiveProperty()
         {
         }
@@ -13,8 +15,6 @@ namespace Gamgaroo.Reactive.Runtime
         {
             _value = value;
         }
-
-        private T _value;
 
         public T Value
         {
