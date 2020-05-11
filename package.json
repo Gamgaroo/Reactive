@@ -1,0 +1,15 @@
+{
+  "name": "com.gamgaroo.reactive",
+  "version": "0.1.0",
+  "displayName": "Gamgaroo/Reactive",
+  "description": "Package for Reactive development in Unity.",
+  "keywords": [
+    "Gamgaroo",
+    "Reactive"
+  ],
+  "author": {
+    "name": "Gamgaroo Studios",
+    "email": "info@gamgaroo.com",
+    "url": "https://github.com/Gamgaroo"
+  }
+}
