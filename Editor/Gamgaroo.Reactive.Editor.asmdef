@@ -1,0 +1,17 @@
+{
+    "name": "Gamgaroo.Reactive.Editor",
+    "references": [
+        "GUID:31a7c63c0239d544095d26257f886486"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
