@@ -1,7 +1,7 @@
 ﻿using UnityEditor;
 using UnityEngine;
 
-namespace Assets.Gamgaroo.Reactive.Editor
+namespace Gamgaroo.Reactive.Editor
 {
     public abstract class SerializableReactivePropertyDrawer : PropertyDrawer
     {
