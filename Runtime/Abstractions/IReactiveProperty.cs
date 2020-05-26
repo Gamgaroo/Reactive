@@ -1,11 +1,7 @@
-﻿using System;
-
-namespace Gamgaroo.Reactive.Runtime.Abstractions
+﻿namespace Gamgaroo.Reactive.Runtime.Abstractions
 {
-    public interface IReactiveProperty<T>
+    public interface IReactiveProperty<T> : IReadOnlyReactiveProperty<T>
     {
-        T Value { get; set; }
-
-        event Action<T> OnValueChanged;
+        new T Value { set; }
     }
 }
