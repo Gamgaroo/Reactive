@@ -1,13 +1,21 @@
-In Unity Package Manager click "Add package from git URL..." and paste
+# Gamgaroo.Reactive
 
-> git://github.com/Gamgaroo/Reactive
+## Package
 
-to add latest version or
+[![](https://img.shields.io/github/v/release/Gamgaroo/Reactive?include_prereleases)](https://github.com/Gamgaroo/Reactive/releases)
+[![](https://img.shields.io/npm/v/com.gamgaroo.reactive?label=MyGet&registry_uri=https://www.myget.org/F/gamgaroo/npm/)](https://www.myget.org/feed/gamgaroo/package/npm/com.gamgaroo.reactive)
+[![](https://img.shields.io/github/license/Gamgaroo/Reactive.svg)](https://github.com/Gamgaroo/Reactive/blob/master/LICENSE.md)
 
-> git://github.com/Gamgaroo/Reactive#0.1.0
+## Description
 
-for 0.1.0 version or any other specific version ([Releases](https://github.com/Gamgaroo/Reactive/releases))
+This package contains common abstractions and implementations for Reactive development in Unity.
 
-Click [here](https://docs.unity3d.com/Manual/upm-git.html) for more info about Unity Package Manager and Git URLs.
+More detailed documentation and samples will be available soon.
+
+## Installation
+
+Read the [Documentation](https://github.com/Gamgaroo/Docs#Installation) to find out how you can install packages.
+
+## Feedback
 
 Any feedback would be greatly appreciated. Thank you.
