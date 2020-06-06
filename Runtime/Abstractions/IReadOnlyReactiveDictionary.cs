@@ -7,6 +7,8 @@ namespace Gamgaroo.Reactive.Runtime.Abstractions
     {
         IReadOnlyDictionary<TKey, TValue> Items { get; }
 
+        TValue this[TKey key] { get; }
+
         event Action<TKey, TValue> OnItemAdded;
         event Action<TKey, TValue> OnItemRemoved;
     }

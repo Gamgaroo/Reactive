@@ -36,6 +36,8 @@ namespace Gamgaroo.Reactive.Runtime
 
         public IReadOnlyDictionary<TKey, TValue> Items => _dictionary;
 
+        public TValue this[TKey key] => _dictionary[key];
+
         public event Action<TKey, TValue> OnItemAdded;
         public event Action<TKey, TValue> OnItemRemoved;
     }
