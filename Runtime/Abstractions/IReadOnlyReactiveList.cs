@@ -7,6 +7,8 @@ namespace Gamgaroo.Reactive.Runtime.Abstractions
     {
         IReadOnlyList<T> Items { get; }
 
+        T this[int index] { get; }
+
         event Action<T> OnItemAdded;
         event Action<T> OnItemRemoved;
     }

@@ -34,6 +34,8 @@ namespace Gamgaroo.Reactive.Runtime
 
         public IReadOnlyList<T> Items => _items;
 
+        public T this[int index] => _items[index];
+
         public event Action<T> OnItemAdded;
         public event Action<T> OnItemRemoved;
     }
